@@ -231,18 +231,11 @@ def update_table(number: int, key: str, msg: Optional[str] = ""):
     #                 Demand node, Relief point]
     with open('Data/display_data', 'r') as fp:
         display_data = json.load(fp)
-    print(type(display_data))
-    print()
-    print(display_data)
-    print()
     # Get Key and Number of People from request
     # Check if Population unserved is negative, ie there is room for more population to serve
-    print("***********   ", display_data[key][2], "   ***************")
-    print("***********   ", number, "   ***************")
     if (display_data[key][2] + number) <=0:
         display_data[key][2] += number
         msg += "Update Successful. "
-        print("***********   ", display_data[key][2], "   ***************")
     # Alert added to warn population limit after changes
         if display_data[key][2] > -1:
             msg += "Cannot add anymore people. "
@@ -253,26 +246,4 @@ def update_table(number: int, key: str, msg: Optional[str] = ""):
         msg += "Entered value exceeds the population limit. "
         return HTMLResponse(content=html_content, status_code=400)
     display_data.update({'msg': msg})
-    print()
-    print(type(display_data))
-    print()
-    print(display_data)
     return HTMLResponse(content=html_content, status_code=200)
-
-@app.get("/test/")
-def testing_web():
-    html_test = """
-    <html>
-        <body>
-            <p id="output"></p>
-        </body>
-        <script>
-            window.onload = function(){
-            var name = prompt("What's your name?");
-            var lengthOfName = name.length
-            document.getElementById('output').innerHTML = lengthOfName;
-            };
-        </script>
-    </html>
-    """
-    return HTMLResponse(content=html_test, status_code=200)
