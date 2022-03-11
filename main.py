@@ -199,7 +199,7 @@ class entry(BaseModel):
 
 @app.get("/")
 async def create_table():
-    df = pd.read_csv("data.csv", encoding= "unicode_escape")
+    df = pd.read_csv("Data/data.csv", encoding= "unicode_escape")
 
     # Selecting by decision
     decision =  df['Decision variable'].values[0:64].astype('float')
