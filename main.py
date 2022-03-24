@@ -77,7 +77,7 @@ body {
     align-self: center;
     border-radius: 25px;
     margin-right: 20px;
-    /*border: 2px solid white;*/
+    border: 2px solid white;
 }
 /*
 .flex-child:first-child {
@@ -86,25 +86,15 @@ body {
 }
 */
 #map {
+    align-self: center;
     border-radius: 25px;
-    height: 100%;
-    width: 100%;
+    height: 500px;
+    width: 200px;
     /* The width is the width of the web page */
-    flex-basis: 0;
-    flex-grow: 4;
+
     flex: auto;
+        border: 2px solid black;
 }
-#sidebar {
-    flex-basis: 15rem;
-    flex-grow: 1;
-    padding: 1rem;
-    max-width: 30rem;
-    height: 100%;
-    box-sizing: border-box;
-    overflow: auto;
-    flex: 0 1 auto;
-    padding: 0;
-  }
   
 #container {
     height: 100%;
@@ -142,15 +132,12 @@ body {
 
                 function renderDataInTheTable(display_data) {
                     const mytable = document.getElementById("html-data-table");
-                    console.log(display_data);
                     for(var k in display_data) {
                         let newRow = document.createElement("tr");
-                        console.log(k, display_data[k]);
                         for(var x in display_data[k]){
                             let cell = document.createElement("td");
                             cell.innerText = display_data[k][x];
                             newRow.appendChild(cell);
-                            console.log(x, display_data[k][x]);
                             }
                         mytable.appendChild(newRow);
                         }
@@ -178,12 +165,55 @@ body {
                       Note: Negative values in column 'Population Unserved' shows that there is space to accomodate that much number of people
                       </p>
                       </div>
-                <div class="flex-child map">
-                   <div id="map">
-                       <h1> MAP</h1>
-                   </div>
-                </div>
-             </div>
+                    <div id="map"></div>
+                    <script
+                         src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBHLMLeLRKTCHcBBQtpJRSnq_yMiNrDzbY" type="text/javascript">
+                        </script>
+            </div>
+            </div>
+                         <script>
+            const myloc = {
+                        lat: 27.302524795918504,
+                        lng: 88.59751338243387
+                        };
+                    var LocationsForMap = [
+                        ['1', 27.302524795918504, 88.59751338243387],
+                        ['2', 27.309941653731695, 88.59884377512124],
+                        ['3', 27.30582333235349, 88.58828660114838],
+                        ['4', 27.310361103820796, 88.60686894416531],
+                        ['5', 27.293448382503307, 88.5876643286917],
+                        ['6', 27.3022574472417, 88.61036710954333],
+                        ['7', 27.29443927704333, 88.60976569341749],
+                        ['8', 27.299968941716006, 88.61238427207702],
+                        ];
+
+                        const map = new google.maps.Map(document.getElementById('map'), {
+                            zoom: 15,
+                            center: myloc,
+                        });
+
+                        var infowindow = new google.maps.InfoWindow();
+
+                        var marker, i;
+                        var mIcon = {
+                            path: google.maps.SymbolPath.CIRCLE,
+                            fillOpacity: 1,
+                            fillColor: '#fff',
+                            strokeOpacity: 1,
+                            strokeWeight: 1,
+                            strokeColor: '#333',
+                            scale: 12
+                        };
+                        for (i = 0; i < LocationsForMap.length; i++) {  
+                        marker = new google.maps.Marker({
+                            position: new google.maps.LatLng(LocationsForMap[i][1], LocationsForMap[i][2]),
+                            map: map,
+                            icon: mIcon,
+                            label: {color: '#000', fontSize: '12px', fontWeight: '600',
+                              text: String(i+1)}
+                        });
+                        }
+            </script>
  </body>
 </html>
                 """
