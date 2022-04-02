@@ -202,7 +202,7 @@ th     { background:#eee; }
                     <div id="map">
                     </div>
                     <script
-                         src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBHLMLeLRKTCHcBBQtpJRSnq_yMiNrDzbY" type="text/javascript">
+                         src="https://maps.googleapis.com/maps/api/js?key=KEY" type="text/javascript">
                     </script>
                     <div class = "second_col_legend"><table>
 <tr>
@@ -506,7 +506,7 @@ th     { background:#eee; }
                     <div id="map">
                     </div>
                     <script
-                         src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBHLMLeLRKTCHcBBQtpJRSnq_yMiNrDzbY" type="text/javascript">
+                         src="https://maps.googleapis.com/maps/api/js?key=KEY" type="text/javascript">
                     </script>
                     <div class = "second_col_legend"><table>
 <tr>
@@ -876,7 +876,7 @@ th     { background:#eee; }
                     <div id="map">
                     </div>
                     <script
-                         src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBHLMLeLRKTCHcBBQtpJRSnq_yMiNrDzbY" type="text/javascript">
+                         src="https://maps.googleapis.com/maps/api/js?key=KEY" type="text/javascript">
                     </script>
                     <div class = "second_col_legend"><table>
 <tr>
@@ -1265,7 +1265,7 @@ th     { background:#eee; }
                     <div id="sidebar">
                     </div>
                     <script
-                         src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBHLMLeLRKTCHcBBQtpJRSnq_yMiNrDzbY&callback=initDirMap&v=weekly" type="text/javascript">
+                         src="https://maps.googleapis.com/maps/api/js?key=KEY&callback=initDirMap&v=weekly" type="text/javascript">
                     </script>
                     </div>
                     <div class = "second_col_legend"><table>
