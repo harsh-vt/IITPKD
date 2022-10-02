@@ -177,7 +177,7 @@ th     { background:#eee; }
                     <div id="map">
                     </div>
                     <script
-                         src="https://maps.googleapis.com/maps/api/js?key=KEY" type="text/javascript">
+                         src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAEX5N6BW6mUGgnor0EBcYwf52twggIs8k" type="text/javascript">
                     </script>
                     <div class = "second_col_legend"><table>
 <tr>
@@ -367,7 +367,6 @@ ctx2.fillText("N", c2.width/2.35, c2.height/1.55);
                             }
                             google.maps.event.addListener(marker, 'click', function() {
                                 window.location.href = this.url;
-                                window.open(marker.url, '_blank');
                             });
                         }
 
@@ -545,7 +544,7 @@ th     { background:#eee; }
                     <div id="map">
                     </div>
                     <script
-                         src="https://maps.googleapis.com/maps/api/js?key=KEY" type="text/javascript">
+                         src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAEX5N6BW6mUGgnor0EBcYwf52twggIs8k" type="text/javascript">
                     </script>
                     <div class = "second_col_legend"><table>
 <tr>
@@ -789,7 +788,6 @@ ctx2.fillText("N", c2.width/2.35, c2.height/1.55);
                                 });
                                 google.maps.event.addListener(marker, 'click', function() {
                                     window.location.href = this.url;
-                                    window.open(marker.url, '_blank');
                             });
                             }
                         }
@@ -971,7 +969,7 @@ th     { background:#eee; }
                     <div id="map">
                     </div>
                     <script
-                         src="https://maps.googleapis.com/maps/api/js?key=KEY" type="text/javascript">
+                         src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAEX5N6BW6mUGgnor0EBcYwf52twggIs8k" type="text/javascript">
                     </script>
                     <div class = "second_col_legend"><table>
 <tr>
@@ -1207,7 +1205,6 @@ ctx2.fillText("N", c2.width/2.35, c2.height/1.55);
                                 });
                                 google.maps.event.addListener(marker, 'click', function() {
                                     window.location.href = this.url;
-                                    window.open(marker.url, '_blank');
                             });
                             }
                             else if (Locations[i][1] == "Relief" && reli.includes(Locations[i][0])){
@@ -1414,7 +1411,7 @@ th     { background:#eee; }
                     <div id="sidebar">
                     </div>
                     <script
-                         src="https://maps.googleapis.com/maps/api/js?key=KEY&callback=initDirMap&v=weekly" type="text/javascript">
+                         src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAEX5N6BW6mUGgnor0EBcYwf52twggIs8k&callback=initDirMap&v=weekly" type="text/javascript">
                     </script>
                     </div>
                     <div class = "second_col_legend"><table>
