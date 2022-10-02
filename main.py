@@ -1881,7 +1881,7 @@ async def init_table():
     display_df = pd.read_csv("Data/data.csv", encoding= "unicode_escape")
 
     # Creating JSON for Frontend
-    # JSON "index": [Demand node, Relief point, Population served, Population unserved, 
+    # JSON "index": [Demand node, Relief point, Population Capacity, Allocated Evacuation Trips, 
     #                 Reliability value]
     display_df.index += 1
     with open('Data/display_data', 'w') as fp:
