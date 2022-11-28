@@ -48,7 +48,7 @@ body {
     background-color: skyblue;
 }
 
-.top_banner {
+.Header_Table {
     text-align: center;
 }
 
@@ -125,10 +125,32 @@ th     { background:#eee; }
     width: 100%;
     margin-right: 20px;
 }
+.header_row {
+  display: flex;
+  align-items: center;
+}
+.header_col_logo {
+  width: 20%;
+  text-align:right;
+  padding: 5px;
+}
+.header_col_text {
+  flex: 50%;
+  padding: 10px;
+}
 </style>
 <body>
-            <div class="top_banner">
-               <a href="/" style="color: black; text-decoration: none;"><h1>Post-Disaster Evacuation Operation Plan</h1></a>
+            <div class="Header_Table">
+                <div class = "header_row">
+                    <div class = "header_col_logo">
+                        <a href="/" style="color: black; text-decoration: none;">
+                        <img src="../Data/Images/logo_transparent.png" alt="logo_transparent" style="width:90px;height:70px;">
+                    </div>
+                    <div class = "header_col_text">
+                        <h1>A scenario analysis tool for population evacuation during disasters</h1>
+                        <h2>Supported by : National Mission on Himalayan Studies</h2>
+                    </div>
+                </a>
             </div>
                <script type="text/javascript">
                var myHeaders = new Headers();
@@ -177,7 +199,7 @@ th     { background:#eee; }
                     <div id="map">
                     </div>
                     <script
-                         src="https://maps.googleapis.com/maps/api/js?key=KEY" type="text/javascript">
+                         src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAEX5N6BW6mUGgnor0EBcYwf52twggIs8k" type="text/javascript">
                     </script>
                     <div class = "second_col_legend"><table>
 <tr>
@@ -420,7 +442,7 @@ body {
     background-color: skyblue;
 }
 
-.top_banner {
+.Header_Table {
     text-align: center;
 }
 
@@ -501,11 +523,33 @@ th     { background:#eee; }
     width: 100%;
     margin-right: 20px;
 }
+.header_row {
+  display: flex;
+  align-items: center;
+}
+.header_col_logo {
+  width: 20%;
+  text-align:right;
+  padding: 5px;
+}
+.header_col_text {
+  flex: 50%;
+  padding: 10px;
+}
 </style>
 <body>
-             <div class="top_banner">
-               <a href="/" style="color: black; text-decoration: none;"><h1>Post-Disaster Evacuation Operation Plan</h1></a>
-             </div>
+            <div class="Header_Table">
+                <div class = "header_row">
+                    <div class = "header_col_logo">
+                        <a href="/" style="color: black; text-decoration: none;">
+                        <img src="../Data/Images/logo_transparent.png" alt="logo_transparent" style="width:90px;height:70px;">
+                    </div>
+                    <div class = "header_col_text">
+                        <h1>A scenario analysis tool for population evacuation during disasters</h1>
+                        <h2>Supported by : National Mission on Himalayan Studies</h2>
+                    </div>
+                </a>
+            </div>
              <div class="flex-container">
                 <div class="flex-child">
                 <div class="flex-container-second">
@@ -544,7 +588,7 @@ th     { background:#eee; }
                     <div id="map">
                     </div>
                     <script
-                         src="https://maps.googleapis.com/maps/api/js?key=KEY" type="text/javascript">
+                         src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAEX5N6BW6mUGgnor0EBcYwf52twggIs8k" type="text/javascript">
                     </script>
                     <div class = "second_col_legend"><table>
 <tr>
@@ -844,7 +888,7 @@ body {
     background-color: skyblue;
 }
 
-.top_banner {
+.Header_Table {
     text-align: center;
 }
 
@@ -926,11 +970,33 @@ th     { background:#eee; }
     width: 100%;
     margin-right: 20px;
 }
+.header_row {
+  display: flex;
+  align-items: center;
+}
+.header_col_logo {
+  width: 20%;
+  text-align:right;
+  padding: 5px;
+}
+.header_col_text {
+  flex: 50%;
+  padding: 10px;
+}
 </style>
 <body>
-             <div class="top_banner">
-               <a href="/" style="color: black; text-decoration: none;"><h1>Post-Disaster Evacuation Operation Plan</h1></a>
-             </div>
+            <div class="Header_Table">
+                <div class = "header_row">
+                    <div class = "header_col_logo">
+                        <a href="/" style="color: black; text-decoration: none;">
+                        <img src="../Data/Images/logo_transparent.png" alt="logo_transparent" style="width:90px;height:70px;">
+                    </div>
+                    <div class = "header_col_text">
+                        <h1>A scenario analysis tool for population evacuation during disasters</h1>
+                        <h2>Supported by : National Mission on Himalayan Studies</h2>
+                    </div>
+                </a>
+            </div>
              <div class="flex-container">
                 <div class="flex-child">
                 <div class="flex-container-second">
@@ -969,7 +1035,7 @@ th     { background:#eee; }
                     <div id="map">
                     </div>
                     <script
-                         src="https://maps.googleapis.com/maps/api/js?key=KEY" type="text/javascript">
+                         src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAEX5N6BW6mUGgnor0EBcYwf52twggIs8k" type="text/javascript">
                     </script>
                     <div class = "second_col_legend"><table>
 <tr>
@@ -1268,7 +1334,7 @@ body {
     background-color: skyblue;
 }
 
-.top_banner {
+.Header_Table {
     text-align: center;
 }
 
@@ -1365,11 +1431,33 @@ th     { background:#eee; }
     width: 100%;
     margin-right: 20px;
 }
+.header_row {
+  display: flex;
+  align-items: center;
+}
+.header_col_logo {
+  width: 20%;
+  text-align:right;
+  padding: 5px;
+}
+.header_col_text {
+  flex: 50%;
+  padding: 10px;
+}
 </style>
 <body>
-             <div class="top_banner">
-               <a href="/" style="color: black; text-decoration: none;"><h1>Post-Disaster Evacuation Operation Plan</h1></a>
-             </div>
+            <div class="Header_Table">
+                <div class = "header_row">
+                    <div class = "header_col_logo">
+                        <a href="/" style="color: black; text-decoration: none;">
+                        <img src="../Data/Images/logo_transparent.png" alt="logo_transparent" style="width:90px;height:70px;">
+                    </div>
+                    <div class = "header_col_text">
+                        <h1>A scenario analysis tool for population evacuation during disasters</h1>
+                        <h2>Supported by : National Mission on Himalayan Studies</h2>
+                    </div>
+                </a>
+            </div>
              <div class="flex-container">
                 <div class="flex-child">
                 <div class="flex-container-second">
@@ -1411,7 +1499,7 @@ th     { background:#eee; }
                     <div id="sidebar">
                     </div>
                     <script
-                         src="https://maps.googleapis.com/maps/api/js?key=KEY&callback=initDirMap&v=weekly" type="text/javascript">
+                         src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAEX5N6BW6mUGgnor0EBcYwf52twggIs8k&callback=initDirMap&v=weekly" type="text/javascript">
                     </script>
                     </div>
                     <div class = "second_col_legend"><table>
