@@ -1993,3 +1993,4 @@ def update_table(number: int, dmnd: int, reli: int):
 @app.post("/testpost/")
 def testPost():
     return JSONResponse({'msg': "test successfull", 'status_code' : 400})
+    
