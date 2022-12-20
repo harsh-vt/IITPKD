@@ -199,7 +199,7 @@ th     { background:#eee; }
                     <div id="map">
                     </div>
                     <script
-                         src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAEX5N6BW6mUGgnor0EBcYwf52twggIs8k" type="text/javascript">
+                         src="https://maps.googleapis.com/maps/api/js?key=KEY" type="text/javascript">
                     </script>
                     <div class = "second_col_legend"><table>
 <tr>
@@ -588,7 +588,7 @@ th     { background:#eee; }
                     <div id="map">
                     </div>
                     <script
-                         src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAEX5N6BW6mUGgnor0EBcYwf52twggIs8k" type="text/javascript">
+                         src="https://maps.googleapis.com/maps/api/js?key=KEY" type="text/javascript">
                     </script>
                     <div class = "second_col_legend"><table>
 <tr>
@@ -1035,7 +1035,7 @@ th     { background:#eee; }
                     <div id="map">
                     </div>
                     <script
-                         src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAEX5N6BW6mUGgnor0EBcYwf52twggIs8k" type="text/javascript">
+                         src="https://maps.googleapis.com/maps/api/js?key=KEY" type="text/javascript">
                     </script>
                     <div class = "second_col_legend"><table>
 <tr>
@@ -1499,7 +1499,7 @@ th     { background:#eee; }
                     <div id="sidebar">
                     </div>
                     <script
-                         src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAEX5N6BW6mUGgnor0EBcYwf52twggIs8k&callback=initDirMap&v=weekly" type="text/javascript">
+                         src="https://maps.googleapis.com/maps/api/js?key=KEY&callback=initDirMap&v=weekly" type="text/javascript">
                     </script>
                     </div>
                     <div class = "second_col_legend"><table>
@@ -1993,4 +1993,3 @@ def update_table(number: int, dmnd: int, reli: int):
 @app.post("/testpost/")
 def testPost():
     return JSONResponse({'msg': "test successfull", 'status_code' : 400})
-    
